@@ -29,9 +29,9 @@ describe("sayhello", function() {
     it ("should return the string \"Hello, Pat!\", when executed", function() {
         expect(sayHello("Pat")).toBe("Hello, Pat!");
     });
-    // it ("should return the string \"Hello, Liz!\", when executed", function(){
-    //     expect(sayHello("Liz")).toBe("Hello, Liz!");
-    // })
+    it ("should return the string \"Hello, World!\", when executed", function(){
+        expect(sayHello()).toBe("Hello, World!");
+    })
 
 })
 

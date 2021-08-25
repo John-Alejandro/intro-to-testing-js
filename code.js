@@ -13,5 +13,9 @@ function helloWorld() {
 //     }
 // }
 function sayHello(input) {
-    return "Hello, " + input + "!";
+    if (input === "") {
+        return "Hello World!";
+    } else  {
+        return "Hello, " + input + "!";
+    }
 }
